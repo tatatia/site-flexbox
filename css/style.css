@@ -37,6 +37,15 @@ body{
     color: #66C05d;
     font-size: 36px;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.logo-image{
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/logo.svg);
+    margin-right: 10px;
 }
 .header-info span{
     font-size: 16px;
@@ -57,7 +66,32 @@ body{
     margin: 0;
 }
 hr{
-    /* border: none; */
+    border: none;
     background-color: #faf2f2;
     height: 1px;
+}
+.title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.banner{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top:100px;
+    padding-bottom:150px;
+    color: #fff;
+}
+.banner p{
+    margin-bottom: 50px;
+    max-width: 315px;
+}
+.btn{
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    padding: 10px 15px;
 }
